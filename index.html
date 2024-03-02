@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Ahmed Nakhuda</h1>
+    <h2>Software Developement Student</h2>
+    <ul>
+      <li id="list"><a href="https://www.linkedin.com/in/ahmed-nakhuda-438549226/"><img src="images/linkedin.png"
+            alt="linkedin"></a></li>
+      <li><a href="resume.pdf"><img src="images/resume.png" alt="email"></li></a>
+    </ul>
+
+    <!-- Link to SVG: https://codepen.io/kinglisky/pen/pejopv -->
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+      <defs>
+        <linearGradient id="bg">
+          <stop offset="0%" style="stop-color:rgba(130, 158, 249, 0.06)"></stop>
+          <stop offset="50%" style="stop-color:rgba(76, 190, 255, 0.6)"></stop>
+          <stop offset="100%" style="stop-color:rgba(115, 209, 72, 0.2)"></stop>
+        </linearGradient>
+        <path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+	s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+      </defs>
+      <g>
+        <use xlink:href='#wave' opacity=".3">
+          <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="10s" calcMode="spline"
+            values="270 230; -334 180; 270 230" keyTimes="0; .5; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+            repeatCount="indefinite" />
+        </use>
+        <use xlink:href='#wave' opacity=".6">
+          <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="8s" calcMode="spline"
+            values="-270 230;243 220;-270 230" keyTimes="0; .6; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+            repeatCount="indefinite" />
+        </use>
+        <use xlink:href='#wave' opacty=".9">
+          <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="6s" calcMode="spline"
+            values="0 230;-140 200;0 230" keyTimes="0; .4; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+            repeatCount="indefinite" />
+        </use>
+      </g>
+    </svg>
+  </header>
+  <main>
+    <div class="color">
+      <div class="container" id="about">
+        <h2 id="about-heading">About Me</h2>
+        <p>
+          Hello! My name is Ahmed Nakhuda, and I am an aspiring software developer.
+          I developed an interest in coding while I was in high school and decided to pursue it as a career.
+          Aside from coding, I enjoy going out and spending time with my family and friends.
+        </p>
+      </div>
+
+      <div class="container" id="education">
+        <h2>Education</h2>
+        <div id="white">
+          <p>Mohawk College</p>
+          <p>Advanced Diploma in Software Development</p>
+          <p>September 2022 - Present</p>
+          <p>Expected Graduation: December 2025</p>
+        </div>
+      </div>
+
+      <div class="container skills-container">
+        <h2>My Skills</h2>
+        <div class="skills" id="front-end">
+          <div class="row">
+            <div class="col">
+              <img src="images/html.png" alt="html">
+              <img src="images/css.png" alt="css">
+              <img src="images/javascript.png" alt="javascript">
+              <img src="images/react.png" alt="react">
+              <img src="images/wordpress.png" alt="wordpress">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container skills-container">
+        <div class="skills">
+          <div class="row">
+            <div class="col">
+              <img src="images/python.png" alt="python">
+              <img src="images/java.png" alt="java">
+              <img src="images/cSharp.png" alt="c#">
+              <img src="images/php.png" alt="php">
+              <img src="images/mysql.png" alt="mysql">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container skills-container">
+        <div class="skills" id="git">
+          <div class="row">
+            <div class="col">
+              <img src="images/git.png" alt="git">
+              <img src="images/github.png" alt="github">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container projects">
+      <h2 id="featured-projects">Featured Projects</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="projectDescription">
+              <h5>Tourist Map Application</h5>
+              <p>
+                I created a web map application using Google Maps API
+                and JavaScript. It allows tourist in Niagara Falls to find attractions,
+                recreational activities, and hotels. Also it can find their location and
+                help them get directions to any of those places.
+              <p>
+                <a href="https://youtu.be/pt7Ppq3wPhc" class="btn btn-primary">Check it Out!</a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="imageContainer">
+              <img src="images/map.png" alt="google maps icon">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h5>Cafe Website</h5>
+            <p>
+              I created a website for a fictional cafe called Bean There using Wordpress.
+              It displays their homepage, blog posts, contact page, upcoming events,
+              and menu.
+            </p>
+            <a href="https://youtu.be/icEyCWtSfFE" class="btn btn-primary">Check it Out!</a>
+          </div>
+          <div class="col-6">
+            <div class="imageContainer">
+              <img src="images/logo.png" alt="coffee shop">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" class="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h5>Pizza Order Website</h5>
+            <p>
+              I created a website for people to place orders at a pizza shop using mainly PHP.
+              They can take their order and fill out a form and their information gets sent to
+              a database on XAMPP.
+            </p>
+            <a href="https://github.com/ahmxedn/Order-Pizza" class="btn btn-primary">Check it Out!</a>
+          </div>
+          <div class="col-6">
+            <div class="imageContainer">
+              <img src="images/delivery.png" alt="pizza delivery">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="contact">
+      <h2>Contact</h2>
+      <p>Feel free to contact me</p>
+      <ul>
+        <li>Email: anakhuda0645@gmail.com</li>
+        <li>Phone: 365-833-4594</li>
+      </ul>
+    </div>
+  </main>
+</body>
+
+</html>

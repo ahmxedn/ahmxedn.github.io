@@ -1,0 +1,207 @@
+/** Body */
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+/** Header  */
+
+
+/* Link to SVG: https://codepen.io/kinglisky/pen/pejopv */ 
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: block;
+    background-color: #0e4166;
+    background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
+    z-index: -1;
+}
+
+header>h2 {
+    margin-top: 200;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+h1 {
+    margin-top: 200px;
+    font-size: 5rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+header>ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header>ul>li {
+    margin: 10px;
+}
+
+#list {
+    margin-left: 44%;
+}
+
+
+/** Main */
+
+main {
+    margin-top: 275px;
+}
+
+.color {
+    background-color: #e1e5e9;
+    padding-bottom: 100px;
+}
+
+.container>h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+/** About */
+
+#about {
+    margin-bottom: 100px;
+}
+
+#about>p {
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+#about-heading {
+    padding-top: 50px;
+}
+
+/** Education */
+
+#education {
+    margin-bottom: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#white {
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+#white> :nth-child(1) {
+    padding-top: 10px
+}
+
+#white> :nth-child(4) {
+    padding-bottom: 10px
+}
+
+
+/** Skills */
+
+#skills-container>h2 {
+    text-align: center;
+}
+
+.skills {
+    margin-left: 12%;
+    margin-right: 12%;
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.skills .row {
+    display: flex;
+    justify-content: center;
+}
+
+.skills .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skills .col img {
+    margin: 10px;
+}
+
+#front-end {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#git {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/** Projects **/
+
+#featured-projects {
+    margin-top: 75px;
+}
+
+.projectDescription {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+
+.imageContainer>img {
+    margin-left: 50px;
+    background-color: white;
+    padding: 10px;
+}
+
+.col-6>h5 {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+
+/** Contact */
+
+#contact {
+    margin-top: 75px;
+}
+
+#contact>ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#contact>ul>li:nth-child(1) {
+    margin-left: 225px;
+}
+
+#contact>ul>li:nth-child(2) {
+    margin-left: 25px;
+}
+
+#contact > p {
+    text-align: center;
+    margin-top:20px;
+}
